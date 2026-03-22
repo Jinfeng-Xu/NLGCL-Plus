@@ -1,0 +1,12 @@
+embedding_size: 64
+n_layers: 2
+aggr_mode: ['add']
+reg_weight: [0.01,0.001,0.0001,0.00001]
+learning_rate: [0.001,0.0001,0.00001]
+
+# NLGCL parameters
+cl_temp: [0.1,0.2,0.3,0.4]
+cl_reg: [0.01, 0.001, 0.0001, 0.00001]
+alpha: [0.4,0.5,0.6]
+
+hyper_parameters: ["aggr_mode", "learning_rate", "reg_weight", "cl_reg", "alpha", "cl_temp"]

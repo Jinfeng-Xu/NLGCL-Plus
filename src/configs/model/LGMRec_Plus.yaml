@@ -1,0 +1,21 @@
+embedding_size: 64
+feat_embed_dim: 64
+cf_model: lightgcn
+
+n_ui_layers: [1,2,3]
+n_mm_layers: [2]
+
+n_hyper_layer: [1,2]
+hyper_num: [4]
+keep_rate: [0.5]
+alpha: [0.3,0.4,0.5,0.6]
+
+cl_weight : [1e-04,1e-05,1e-06]
+reg_weight: [1e-06,1e-07,1e-08]
+
+# Enhanced NLGCL parameters
+nlgcl_temp: [0.1,0.2,0.3,0.4]
+nlgcl_reg: [0.0001,0.00001,0.000001]
+nlgcl_alpha: [0.4,0.5,0.6]
+
+hyper_parameters: ["n_ui_layers", "n_mm_layers", "n_hyper_layer", "hyper_num", "keep_rate", "alpha", "cl_weight", "reg_weight", "nlgcl_reg", "nlgcl_alpha", "nlgcl_temp"]
