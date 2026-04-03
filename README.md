@@ -45,7 +45,7 @@ We provide five state-of-the-art multimodal recommendation models, along with th
 If you find NLGCL+ useful in your research, please consider citing our [NLGCL+ paper](https://dl.acm.org/doi/pdf/10.1145/3806231) and [NLGCL paper](https://dl.acm.org/doi/full/10.1145/3705328.3748059).
 
 ```
-1. NLGCL+
+1. NLGCL+ (TORS2026)
 @article{xu2026nlgcl+,
   title={NLGCL+: Naturally Existing Neighbour Layers Graph Contrastive Learning with Adaptive Sample Weighting for Multimodal Recommendation},
   author={Xu, Jinfeng and Chen, Zheyu and Yang, Shuo and Li, Jinze and Wang, Hewei and Wang, Wei and Hu, Xiping and Ngai, Edith},
